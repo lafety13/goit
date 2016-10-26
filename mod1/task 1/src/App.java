@@ -2,21 +2,14 @@
 public class App {
 	public static void main(String[] args) {
 
-		FirstClass fc = new FirstClass();
-		fc.display();
+		FirstClass.display();
 
-		SecondClass sc = new SecondClass();
-		sc.display();
+		SecondClass.display();
 
-		ThirdClass tc = new ThirdClass();
-		tc.display();
+		ThirdClass.display();
 
-		Fourth f = new Fourth();
-		f.display();
+		Fourth.display();
 		
-		Fifth fif = new Fifth();
-		fif.display();
-		
-
+		Fifth.display();
 	}
 }
